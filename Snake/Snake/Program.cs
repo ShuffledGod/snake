@@ -16,7 +16,12 @@ namespace Snake
             p1.sym = '*';
             p1.Drow();
 
-                                              
+            Point p2 = new Point();
+            p2.x = 3;
+            p2.y = 4;
+            p2.sym = '#';
+            p2.Drow();
+
             Console.ReadLine();
         }
 
